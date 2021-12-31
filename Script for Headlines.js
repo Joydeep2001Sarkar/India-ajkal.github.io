@@ -1,7 +1,7 @@
 joyhead = document.getElementById("joyhead");
 
 
-fetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=9bc1ed05f73f410a85651ce694f0f450").then(function (response) {
+fetch("https://saurav.tech/NewsAPI/everything/cnn.json").then(function (response) {
     return response.json();
 }).then(function (data) {
     let articles = data.articles; // taking the articles 
