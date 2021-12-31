@@ -18,7 +18,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Kolkata,india&APPID=9f2
     console.log(coordinates_kol);
     let kolkata_weather =
         `<div class="card myCard" style="width: 90%;">
-            <img src="/Kolkata.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
+            <img src="/india-ajkal.github.io/Kolkata.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
             <div class ="card-body">
             <h5 class ="card-title">Present Weather at Kolkata ...</h5>
             <table class ="table" style="border: 1px solid #898484;box-shadow: 3px 2px 5px #a59696 ;" >
@@ -64,7 +64,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Delhi,india&APPID=9f2ff
     coordinates_Delhi = data.coord;
     let Delhi_weather =
         `<div class="card myCard" style="width: 90%;">
-            <img src="/Delhi.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
+            <img src="/india-ajkal.github.io/Delhi.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
             <div class ="card-body">
             <h5 class ="card-title">Present Weather at Delhi...</h5>
             <table class ="table" style="border: 1px solid #898484;box-shadow: 3px 2px 5px #a59696 ;" >
@@ -109,7 +109,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Mumbai,india&APPID=9f2f
     coordinates_Mumbai = data.coord;
     let Mumbai_weather =
         `<div class="card myCard" style="width: 90%;">
-            <img src="/mumbai.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
+            <img src="/india-ajkal.github.io/mumbai.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
             <div class ="card-body">
             <h5 class ="card-title">Present Weather at Mumbai...</h5>
             <table class ="table" style="border: 1px solid #898484;box-shadow: 3px 2px 5px #a59696 ;" >
@@ -156,7 +156,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Chennai,india&APPID=9f2
     coordinates_Chennai = data.coord;
     let Chennai_weather =
         `<div class="card myCard" style="width: 90%;">
-            <img src="/chennai.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
+            <img src="/india-ajkal.github.io/chennai.jpg" class="card-img-top img-fluid" alt="Image" style="border-radius: 20px;">
             <div class ="card-body">
             <h5 class ="card-title">Present Weather at Chennai...</h5>
             <table class ="table" style="border: 1px solid #898484;box-shadow: 3px 2px 5px #a59696 ;" >
