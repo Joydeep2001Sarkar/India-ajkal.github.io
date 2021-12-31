@@ -1,7 +1,7 @@
 oyhead = document.getElementById("joyhead");
 
 
-fetch("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=e684354f26c94c1ab96781503e77ce00").then(function (response) {
+fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").then(function (response) {
     return response.json();
 }).then(function (data) {
     let articles = data.articles; // taking the articles 
