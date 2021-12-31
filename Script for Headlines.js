@@ -1,7 +1,7 @@
 joyhead = document.getElementById("joyhead");
 
 
-fetch("https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=9bc1ed05f73f410a85651ce694f0f450").then(function (response) {
+fetch("https://saurav.tech/NewsAPI/top-headlines/category/general/in.json").then(function (response) {
     return response.json();
 }).then(function (data) {
     let articles = data.articles; // taking the articles 
