@@ -21,8 +21,8 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <img src="${news1.urlToImage}" class="card-img-top  img-thumbnail" alt="Image">
          <div class="card-body">
              <h5 class="card-title">${news1.title}</h5>
-             <p class="card-text">${news1.description}</p>
-             <a href="${news1.url}" class="btn btn-primary" target="_blank">Main Page</a>
+             <p class="card-text" style="padding-bottom:6px">${news1.description}</p>
+             <a href="${news1.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 14px; bottom: 1px; border-radius: 15px; margin-top:2px;">Main Page</a>
          </div>
      </div>
  </div>
@@ -31,8 +31,8 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <img src="${news2.urlToImage}" class="card-img-top  img-thumbnail" alt="Image">
          <div class="card-body">
              <h5 class="card-title">${news2.title}</h5>
-             <p class="card-text">${news2.description}</p>
-             <a href="${news2.url}" class="btn btn-primary" target="_blank">Main Page</a>
+             <p class="card-text" style="padding-bottom:6px">${news2.description}</p>
+             <a href="${news2.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 14px; bottom: 1px; border-radius: 15px; margin-top:2px;">Main Page</a>
          </div>
      </div>
  </div>
@@ -42,8 +42,8 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <img src="${news3.urlToImage}" class="card-img-top img-thumbnail" alt="Image">
          <div class="card-body">
              <h5 class="card-title">${news3.title}</h5>
-             <p class="card-text">${news3.description}</p>
-             <a href="${news3.url}" class="btn btn-primary" target="_blank">Main Page</a>
+             <p class="card-text" style="padding-bottom:6px">${news3.description}</p>
+             <a href="${news3.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 14px; bottom: 1px; border-radius: 15px; margin-top:2px;">Main Page</a>
          </div>
      </div>
  </div>
@@ -52,8 +52,8 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <img src="${news4.urlToImage}" class="card-img-top img-thumbnail" alt="Image">
          <div class="card-body">
              <h5 class="card-title">${news4.title}</h5>
-             <p class="card-text">${news4.description}</p>
-             <a href="${news4.url}" class="btn btn-primary" target="_blank">Main Page</a>
+             <p class="card-text" style="padding-bottom:6px">${news4.description}</p>
+             <a href="${news4.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 14px; bottom: 1px; border-radius: 15px; margin-top:2px;">Main Page</a>
          </div>
      </div>
  </div>
