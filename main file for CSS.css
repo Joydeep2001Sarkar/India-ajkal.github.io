@@ -2,7 +2,6 @@
 #joynav {
     background-color: #000000;
     font-size: 1.4rem;
-    border-radius: 8px;
     font-family: 'Lobster', cursive;
     position: sticky;
     top: 0;
@@ -31,6 +30,7 @@
     display: flex;
     justify-content: center;
     padding: 8px 0px;
+    margin-bottom: 8px;
 }
 .myCard {
     display: flex;
