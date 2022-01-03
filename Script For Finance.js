@@ -22,7 +22,7 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <div class="card-body">
              <h5 class="card-title">${news1.title}</h5>
              <p class="card-text" style="padding-bottom:6px">${news1.description}</p>
-             <a href="${news1.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 7px; bottom: 1px; border-radius: 15px; margin-top:2px;font-size:0.85rem;">Main Page</a>
+             <a href="${news1.url}" class="btn btn-primary" target="_blank" style="position: absolute; left: 17px; bottom: 1px; border-radius: 7px; margin-top:2px;  font-size:0.85rem;" margin-bottom: 1px;>Main Page</a>
          </div>
      </div>
  </div>
@@ -33,7 +33,7 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <div class="card-body">
              <h5 class="card-title">${news2.title}</h5>
              <p class="card-text" style="padding-bottom:6px">${news2.description}</p>
-             <a href="${news2.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 7px; bottom: 1px; border-radius: 15px; margin-top:2px;font-size:0.85rem;">Main Page</a>
+             <a href="${news2.url}" class="btn btn-primary" target="_blank" style="position: absolute; left: 17px; bottom: 1px; border-radius: 7px; margin-top:2px;  font-size:0.85rem;" margin-bottom: 1px;>Main Page</a>
          </div>
      </div>
  </div>
@@ -44,7 +44,7 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <div class="card-body">
              <h5 class="card-title">${news3.title}</h5>
              <p class="card-text" style="padding-bottom:6px">${news3.description}</p>
-             <a href="${news3.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 7px; bottom: 1px; border-radius: 15px; margin-top:2px;font-size:0.85rem;">Main Page</a>
+             <a href="${news3.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 17px; bottom: 1px; border-radius: 7px; margin-top:2px;  font-size:0.85rem;" margin-bottom: 1px;>Main Page</a>
          </div>
      </div>
  </div>
@@ -55,7 +55,7 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
          <div class="card-body">
              <h5 class="card-title">${news4.title}</h5>
              <p class="card-text" style="padding-bottom:6px">${news4.description}</p>
-             <a href="${news4.url}" class="btn btn-primary" target="_blank"style="position: absolute; left: 7px; bottom: 1px; border-radius: 15px; margin-top:2px;font-size:0.85rem;">Main Page</a>
+             <a href="${news4.url}" class="btn btn-primary" target="_blank" style="position: absolute; left: 17px; bottom: 1px; border-radius: 7px; margin-top:2px;  font-size:0.85rem;" margin-bottom: 1px;>Main Page</a>
          </div>
      </div>
  </div>
