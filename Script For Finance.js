@@ -10,7 +10,7 @@ fetch("https://saurav.tech/NewsAPI/top-headlines/category/business/in.json").the
     newsHtml = "";
     // Normal Programming  and Manipulating DOM   
     let i;
-    for (i = 0; i < 20; i++) {
+    for (i = 0; i < 28; i++) {
      news1 = articles[i];
      news2 = articles[++i];
      news3 = articles[++i];
